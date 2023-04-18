@@ -4,4 +4,4 @@ maks = 0
 for i in range(limit): 
 	if i % 4 ==  0 and i > maks: #Chemidov Aldar
 		maks = i  #Serghey Eneev
-print(maxs)    # Эренценов Санджи
+print(maks)    # Эренценов Санджи
