@@ -1,5 +1,7 @@
 x = input("Enter limit: ")
+summ = 0
+
 for i in range(x):
-	print(i*10)
+	summ += i*10
 	
 	
