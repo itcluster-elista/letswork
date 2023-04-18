@@ -5,3 +5,4 @@ for i in range(x):
 	summ += i*10
 	
 	
+print(summ)
