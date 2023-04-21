@@ -1,1 +1,1 @@
-print("chto")
+print ("chto")
