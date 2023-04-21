@@ -1,1 +1,3 @@
-a = int(input()
+n= 5
+string = "Hello world"
+print(string * n)
