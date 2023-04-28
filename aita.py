@@ -13,3 +13,16 @@ print(c1.getVar())
 
 c1.setVar(35)
 print(c1.getVar())
+
+def ingredients(func):
+	def wrapper():
+		print("Bread")
+		func()
+		print("Bread")
+	return wrapper
+	
+@ingredient
+def sandwich(food="Ham"):
+	print(food)
+	
+sandwich()
